@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;;
+}
+
+/*•	Include Cascading Style Sheet (embedded or externally linked).*/
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #6397d9,#3A649A);
+  padding: 0 !important;
+}
+
+.navbar-brand img{
+  height: 25px;
+  padding-left: 20px;
+}
+
+navbar-nav li{
+  padding: 0 10px;
+}
+
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.fas fa-bars{
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+/*-----------------banner section-----------------*/
+
+#banner{
+  background-image: linear-gradient(to right, #6397d9,#3A649A);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.promo-title{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.image-fluid{
+  height: 400px;
+}
+
+/*--------------------Product Section---------------------*/
+
+#product{
+  width: 100%;
+  height: 80vh;
+}
+
+.product-img{
+  position: relative;
+  width: 300px;
+  bottom: 100px;
+  left: 100px;
+  margin-top: 0px;
+}
+
+.title{
+  text-align: center;
+  margin-top: 20px
+}
+
+.title::after{
+  content: '';
+  background: #6397d9;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.description{
+  position: relative;
+  bottom: 250px;
+  left: 300px;
+  text-align: center;
+  width: 400px;
+}
+
+/*---------------------Careers Section------------------------*/
+
+#careers{
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+Career-title{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+.pyramidImg{
+  position: relative;
+  width: 400px;
+  bottom: 80px;
+  left: 100px;
+  margin-top: 0px;
+}
+
+#careers ul li{
+  margin: 10px 0px;
+}
+
+#careers ul {
+  margin-left: 20px;
+}
+
+/*-----------------------About Us Section----------------------*/
+
+#about{
+  margin: 100px 0;
+}
+
+.about{
+  border-left: 4px solid #6397d9;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.team-details{
+  display: inline-block;
+  font-size: 12px;
+}
+
+/*-------------------Social Media Section----------------------*/
+
+#social-media
+{
+  padding: 100px 0;
+}
+
+#social-media p{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img{
+  width: 60px;
+  transition: 0.5s;
+}
+
+.social-icons a: hover img{
+  transform: translateY(-10px);
+}
+
+/*--------------------------Gallary Section-----------------------------------*/
+
+#gallary{
+  background: #f8f9fa;
+  width: 100%;
+  height: 100vh;
+}
+
+.mySlides{
+  position: relative;
+  display: none;
+  left: 400px;
+  bottom: -50px;
+
+}
+
+.left-button{
+  position: relative;
+  background:url(left.png);
+  width: 60px;
+  height: 60px;
+  bottom: 250px;
+  left: 400px;
+  cursor: pointer;
+}
+
+
+.right-button{
+  position: relative;
+  background:url(right.png);
+  width: 60px;
+  height: 60px;
+  bottom: 250px;
+  left: 1030px;
+  cursor: pointer;
+}
+
+/*-----------------------Footer Section--------------------------*/
+
+#footer{
+  background-image: linear-gradient(to right, #6397d9,#3A649A);
+  color: #fff;
+  height: 60vh;
+}
+
+.copyright-header{
+  position: relative;
+  left: 477px;
+  font-weight: 600;
+}
+
+.info{
+  position: relative;
+  left: 375px;
+  font-weight: 400;
+}
+
+.credit{
+  position: relative;
+  left: 477px;
+}
+
+.link{
+  position: relative;
+  left: 435px;
+  color: white;
+}
+
+.companyName{
+  font-weight: 100;
+  position: relative;
+  left: 280px;
+  color: white;
+  text-align: center;
+}

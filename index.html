@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--•	Basic HTML page syntax-->
+<!--Resource Credit:
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self
+https://www.youtube.com/watch?v=v0IgI8vYD_o&t=508s
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form-->
+  <head>
+    <!--•	Research and create an available domain name for the business, please include the domain name within the title tags of the html syntax.-->
+    <title>EnviroSolarShield.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactUs.html">
+    <link rel="testimonials" href="testimonials.html">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!--Use a jQuery CDN library link so the jQuery functions work properly-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Bootstrap mobile ready function-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  </head>
+  <body>
+<section id="nav-bar">
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <!--•	Main company logo should be linked to the index/home page.-->
+    <a class="navbar-brand" href="#"><img src= "logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <!--•	Drop Down menu, links, or buttons should be placed correctly, use html to link to the pages throughout the website. CSS coding for the style of the navigations/links should be used.-->
+      <i class="fas fa-bars"></i>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--•	Bootstrap pager element to be a secondary navigation throughout the website.-->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#banner";>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href= "#product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#careers">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</section>
+<!--Include JavaScript page ready function-->
+<script>
+function readyFn( jQuery ) {
+// Code to run when the document is ready.
+}
+
+$( document ).ready( readyFn );
+</script>
+
+<!--------------banner section---------->
+
+<section id="banner">
+  <div class="container">
+    <div class="row">
+      <!--•	Bootstrap alignment for images or text.-->
+      <div class="col-md-6">
+        <p class="promo-title">#1 PEST CONTROL, SOLAR, SECURITY COMPANY IN THE UPPER WEST</p>
+        <p>Contact us or we'll send a hypebeast, reverse-trunky rm, wearing cargo-shorts that
+        runs purely on a mixture of redbull,monster, and bang right to your door. </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <!--•	Include images and size them appropriately, images should be no bigger then 300 dpi. Please use either .gif or .png images types.-->
+        <img src="meeting.png" class="image-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-----------------------Services Section---------------------->
+
+<section id="product">
+  <div class="container">
+    <div  class="col-md-6">
+
+
+    <div class="title">
+      <h1>OUR PRODUCT</h1>
+    </div>
+      <div>
+        <img src="Machine.png" class="product-img">
+        <div class="description">
+          <!--•	When writing text for the website please use proper English rules, 3 to 5 sentences within a paragraph. -->
+        <h4 class="description header">Bug Killing Electric Security System</h4>
+        <p class="description">The Bug Killing Electric Security System or BKESS
+        is a revolutionary new piece of technology. While it looks like
+        we just stuck a flame thrower and solar panel on a giant camera,
+        it is so much more. This device simultaneously charges your house,
+        alerts you of intruders, and eliminates pests with our fire launching
+        technology.</p>
+      </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<!-----------------------Careers Section---------------------->
+
+<section id="careers">
+  <div class="container">
+    <h1>WHY SELL FOR US?</h1>
+    <div class="row">
+      <div class="col-md-6 careers">
+        <p class="Career-title">So an aquiantence from middle school suddenly hits you up and
+        asks you what you're doing this summer. And now you're here.</p>
+        <ul>
+          <li>You could 12k-25k in one summer! Please don't divide
+          the money made by the hours though.</li>
+          <li>You could win things like a Tesla!</li>
+          <li>But it's not about the money, it's about the experience.</li>
+          <li>But you could make thousands and win a Tesla!</li>
+          <li>But it's not about the money.</li>
+          <li>But when you do make money, you can use our triangular marketing
+          strategy. Meaning you'll bring people and make a percentage of their
+          earnings and they do the same and you make a percentage of those people's
+          earnings.</li>
+          <li>Also we stand out from the rest of the companies because of
+          the culture. Our culture is good. Culture.</li>
+        </ul>
+      </div>
+  <div class="col-md-6">
+    <img src="pyramid.png" class="pyramidImg">
+  </div>
+    </div>
+
+  </div>
+</section>
+
+<!----------------------About us Section----------------------->
+
+<section id="about">
+  <div class="container">
+    <h1 class="title text-center">OUR TEAM</h1>
+    <div class="row offset-1">
+      <div class="col-md-5 about">
+        <p>"You don't need to know anything about me. Who are you? The IRS? I get my
+        materials ethically and pay my taxes."</p>
+        <img src="ceo.jpg" class="ceo">
+        <p class="team-details"><b>Jimmy</b><br> CEO of EnviroSolarShield</p>
+      </div>
+
+      <div class="col-md-5 about">
+        <p>"I own 8 Teslas and I had dinner with Post Malone once. I don't think a further
+          introduction is neccessary."</p>
+        <img src="president.jpg" class="ceo">
+        <p class="team-details"><b>Zedekiah</b><br> President of EnviroSolarShield</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!------------------------Gallary Section--------------------->
+
+<section id= "gallary">
+
+  <body>
+<divclass="col-md-6">
+  <h1 class="title text-center">Gallary</h1>
+
+  <div class="display-container">
+    <img class="mySlides" src="money.jpg" style="width:50%">
+    <img class="mySlides" src="tesla.jpg" style="width:50%">
+    <img class="mySlides" src="party.jpg" style="width:50%">
+    <img class="mySlides" src="energy drink.jpg" style="width:50%">
+
+    <button class="left-button" onclick="plusDivs(-1)"></button>
+    <button class="right-button" onclick="plusDivs(1)"></button>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+  </div>
+</section>
+
+<!----------------------Social Media Section-------------------------->
+<section id="social-media">
+  <div class="container text-center">
+    <p>FIND US ON SOCIAL MEDIA</p>
+    <!--•	Include icons for social media pages.-->
+    <div class="social-icons">
+      <a href="#tiktok.com"><img src="tiktok.png"></a>
+      <a href="#facebook.com"><img src="facebook.png"></a>
+      <a href="#instagram.com"><img src="instagram.png"></a>
+    </div>
+  </div>
+</section>
+
+<!----------------------Footer Section------------------------------->
+<section id="footer">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <p class="copyright-header">Copyright Information</p>
+      <!--•	Include a copyright stamp showing company name, date created, and person designed by.-->
+      <p class="info">
+        3561 N Pyramid Street, Orem, Utah
+                  (000)-867-5309</p>
+          <p class="credit">Home Screen Picture:</p>
+          <a href='https://pngtree.com/so/business' class="link">business png from pngtree.com/</a>
+                <p class="credit"> Career Section Picture:</p>
+          <a href='https://pngtree.com/so/money' class="link">money png from pngtree.com/</a>
+          <p class="companyName">EnviroSolarShield&copy;<br>Matt Scott <br>4/5/22</p>
+<p class="companyName">Time Stamp: <span id="time">-</span></p>
+<script type="text/javascript">
+
+
+function getTime(event) {
+  var time = document.getElementById("time");
+  time.firstChild.nodeValue = event.timeStamp;
+}
+document.body.addEventListener("keypress", getTime);
+
+</script>
+    </div>
+  </div>
+</div>
+</section>
+
+  </body>
+</html>

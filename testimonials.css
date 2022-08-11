@@ -1,0 +1,27 @@
+*body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  font-family: Georgia;
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  top: 200px;
+  padding: 10px 10px;
+}
+
+.quote{
+  font-family: georgia;
+  position: relative;
+  color: #fff;
+  top: 200px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.homePage{
+  color: #fff;
+}

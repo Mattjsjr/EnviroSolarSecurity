@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="contactUs.css">
+<link rel="home" href="index.html">
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #6397d9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3A649A;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="homePage" href="index.html">Return Home</a>
+</header>
+
+<h3>When do you want to sell?</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input onclick="myFunction()" type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="container">
+  <h1>Info</h1>
+  <p>3561 N Pyramid Street, Orem, Utah</p>
+              <p>(000)-867-5309</p>
+              <p>EnviroSolarShield@gmail.com</p>
+
+              <!--•	Within the contact us page please include a map of the business location static or interactive along with the following: address phone number, and email address.-->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.1299205478654!2d-104.98170854896492!3d39.73673237934906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7ed37f6bc97b%3A0x527079d106a02b14!2sYour%20Mom&#39;s%20House!5e0!3m2!1sen!2sus!4v1649214218148!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!--•	1 Dialog/pop up box using JavaScript when a button is pressed.-->
+<script>
+   function myFunction(){
+     alert("We'll get back to you soon");
+   }
+ </script>
+
+</body>
+</html>
